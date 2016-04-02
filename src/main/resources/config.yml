@@ -1,0 +1,9 @@
+spawn:
+  time: 12500
+  rain: false
+disco:
+  time: 12500
+  rain: true
+start:
+  time: 0
+  rain: false

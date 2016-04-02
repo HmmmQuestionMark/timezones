@@ -1,0 +1,12 @@
+name: ${project.name}
+main: me.hqm.timezones.TimezonesPlugin
+version: ${project.version}
+description: ${project.description}
+authors: [HmmmQuestionMark]
+depend: [WorldGuard]
+commands:
+  timezone:
+    usage: /timezone <set/remove> <name> [time] [rain]
+permissions:
+  timezone.mod:
+    default: op
