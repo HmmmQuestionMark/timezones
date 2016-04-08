@@ -51,6 +51,9 @@ public class TimezonesPlugin extends JavaPlugin implements Listener {
                     Timezone zone = ZONES.get(region);
                     online.setPlayerTime(zone.getTime(), false);
                     online.setPlayerWeather(zone.getRain() ? WeatherType.DOWNFALL : WeatherType.CLEAR);
+                } else if (online.getPlayerTimeOffset() > 1) {
+                    online.resetPlayerTime();
+                    online.resetPlayerWeather();
                 }
             }
         }, 5, 5);
