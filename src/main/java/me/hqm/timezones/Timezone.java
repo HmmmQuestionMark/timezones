@@ -24,7 +24,6 @@ public class Timezone {
         this.name = name;
         this.time = time;
         this.rain = rain;
-
     }
 
     public void setName(String name) {

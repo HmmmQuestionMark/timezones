@@ -85,9 +85,9 @@ public class TimezonesPlugin extends JavaPlugin implements Listener {
 
             // Only do stuff if they don't match
             if (inTo && !inFrom) {
-                player.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, 25, 90, false, false));
+                player.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, 25, 2, false, false));
             } else if (!inTo && inFrom) {
-                player.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, 25, 90, false, false));
+                player.addPotionEffect(new PotionEffect(PotionEffectType.BLINDNESS, 25, 2, false, false));
                 player.resetPlayerTime();
                 player.resetPlayerWeather();
             }

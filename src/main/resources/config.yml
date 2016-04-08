@@ -1,9 +1,9 @@
 spawn:
-  time: 12500
+  time: 20000
   rain: false
 disco:
-  time: 12500
+  time: 12600
   rain: true
 start:
-  time: 0
+  time: 2000
   rain: false
